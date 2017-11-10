@@ -13,4 +13,4 @@
 * Cantidad. 
 * Valor sin IVA.
 * **Generar boleta/factura**
-
+* manejar lista de clientes (agregar nuevo cliente)
