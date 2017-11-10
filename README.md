@@ -12,5 +12,5 @@
 * Descripción del servicio. 
 * Cantidad. 
 * Valor sin IVA.
-**Generar boleta/factura**
+* **Generar boleta/factura**
 
