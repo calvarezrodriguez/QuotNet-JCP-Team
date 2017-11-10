@@ -1,2 +1,2 @@
-# QuotNet---JCP-Team
+# QuotNet-JCP-Team
 Repositorio destinado 
