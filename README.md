@@ -1,12 +1,12 @@
 # QuotNet-JCP-Team
 
-* base de datos historico.
-* cotizaciones activas
-* correlacion de cotizaciones
-* seguimiento de la cotizacion y trabajo (finalizado, cobrado, hecho)
-* fondos disponibles; cobros
+* Base de datos historico.
+* Cotizaciones activas.
+* Correlacion de cotizaciones.
+* Seguimiento de la cotizacion y trabajo (finalizado, cobrado, hecho).
+* Fondos disponibles; Cobros.
 
-datos cotizacion : 
-descripcion servicio cantidad valor sin iva
-generar boleta/factura
+Datos cotizacion : 
+Descripcion servicio cantidad valor sin iva
+Generar boleta/factura
 
