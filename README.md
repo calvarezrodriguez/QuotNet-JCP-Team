@@ -7,7 +7,10 @@
 * Fondos disponibles; Cobros.
 * *"DUPLICIDAD EN LA INFORMACIÓN"*
 
-Datos cotizacion : 
-Descripcion servicio cantidad valor sin iva
-Generar boleta/factura
+# Datos cotizacion : 
+* Tipo de servicio.
+* Descripción del servicio. 
+* Cantidad. 
+* Valor sin IVA.
+**Generar boleta/factura**
 
