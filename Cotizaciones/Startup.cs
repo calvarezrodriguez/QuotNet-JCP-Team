@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Lab.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Cotizaciones.Data;
 
-namespace Lab
+namespace Cotizaciones
 {
     public class Startup
     {
@@ -23,7 +23,7 @@ namespace Lab
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddDbContext<LabContext>();
+            services.AddDbContext<CotizacionesContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 using System;
 
-namespace Lab.Models
+namespace Cotizaciones.Models
 {
     public class ErrorViewModel
     {
