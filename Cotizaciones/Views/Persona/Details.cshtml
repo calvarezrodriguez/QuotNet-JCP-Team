@@ -1,0 +1,42 @@
+@model Cotizaciones.Models.Persona
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Persona</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Rut)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rut)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Paterno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Paterno)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Materno)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Materno)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
