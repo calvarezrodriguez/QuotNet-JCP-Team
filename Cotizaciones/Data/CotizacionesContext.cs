@@ -11,5 +11,6 @@ namespace Cotizaciones.Data {
             optionsBuilder.UseSqlite("Data Source = cotizaciones.db");
         }
         public DbSet<Persona> Personas {get; set;}
+        //public DbSet<Persona> Cotizaciones {get; set;}
     }
 }
