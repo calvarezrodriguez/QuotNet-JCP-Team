@@ -42,6 +42,24 @@ namespace Cotizaciones.Migrations
                     b.ToTable("Cotizaciones");
                 });
 
+            modelBuilder.Entity("Cotizaciones.Models.CotizacionPersona", b =>
+                {
+                    b.Property<int>("CotizacionPersonaID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("cotizacioncorrelativoID");
+
+                    b.Property<int?>("personaId");
+
+                    b.HasKey("CotizacionPersonaID");
+
+                    b.HasIndex("cotizacioncorrelativoID");
+
+                    b.HasIndex("personaId");
+
+                    b.ToTable("CotizacionPersonas");
+                });
+
             modelBuilder.Entity("Cotizaciones.Models.Persona", b =>
                 {
                     b.Property<int>("Id")
@@ -58,6 +76,17 @@ namespace Cotizaciones.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Personas");
+                });
+
+            modelBuilder.Entity("Cotizaciones.Models.CotizacionPersona", b =>
+                {
+                    b.HasOne("Cotizaciones.Models.Cotizacion", "cotizacion")
+                        .WithMany()
+                        .HasForeignKey("cotizacioncorrelativoID");
+
+                    b.HasOne("Cotizaciones.Models.Persona", "persona")
+                        .WithMany()
+                        .HasForeignKey("personaId");
                 });
 #pragma warning restore 612, 618
         }

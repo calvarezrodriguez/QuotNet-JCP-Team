@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 /// <sumary>
 /// Archivo donde se definen las clases 
 /// </sumary>
@@ -22,5 +23,7 @@ public class Cotizacion{
     public string fecha {get;set;}
     public string estado {get;set;}
     public int version {get;set;}
+
+    public List<CotizacionPersona> CotizacionPersona { get; set; }
 }
 }

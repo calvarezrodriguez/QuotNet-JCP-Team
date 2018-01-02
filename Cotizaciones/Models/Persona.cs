@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 /// <sumary>
 /// Archivo donde se definen las clases 
 /// </sumary>
@@ -16,6 +18,8 @@ public class Persona{
     public string Nombre {get; set; }
     public string Paterno {get; set; }    
     public string Materno {get; set; }
+
+     public List<CotizacionPersona> CotizacionPersona { get; set; }
 
     }
 }

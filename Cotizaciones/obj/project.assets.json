@@ -13132,11 +13132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Shock\\Documents\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj",
       "projectName": "Cotizaciones",
-      "projectPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
+      "projectPath": "C:\\Users\\Shock\\Documents\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj",
       "packagesPath": "C:\\Users\\Shock\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\obj\\",
+      "outputPath": "C:\\Users\\Shock\\Documents\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
