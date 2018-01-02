@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Cotizaciones.Data;
 using Cotizaciones.Models;
+
 namespace Cotizaciones.Controllers
 {
     public class CotizacionController : Controller
@@ -24,16 +25,16 @@ namespace Cotizaciones.Controllers
             return View(await _context.Cotizaciones.ToListAsync());
         }
 
-        // GET: Cotizacion/Details/
-        public async Task<IActionResult> Details(int? correlativoID)
+        // GET: Cotizacion/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
-            if (correlativoID == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var cotizacion = await _context.Cotizaciones
-                .SingleOrDefaultAsync(m => m.correlativoID == correlativoID);
+                .SingleOrDefaultAsync(m => m.correlativoID == id);
             if (cotizacion == null)
             {
                 return NotFound();
@@ -53,7 +54,7 @@ namespace Cotizaciones.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("correlativoID,tipoServicio,descripcion,montoTotal,valorAgregado,fecha")] Cotizacion cotizacion)
+        public async Task<IActionResult> Create([Bind("correlativoID,tipoServicio,descripcion,montoTotal,valorAgregado,fecha,estado,version")] Cotizacion cotizacion)
         {
             if (ModelState.IsValid)
             {
@@ -65,14 +66,14 @@ namespace Cotizaciones.Controllers
         }
 
         // GET: Cotizacion/Edit/5
-        public async Task<IActionResult> Edit(int? correlativoID)
+        public async Task<IActionResult> Edit(int? id)
         {
-            if (correlativoID == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var cotizacion = await _context.Cotizaciones.SingleOrDefaultAsync(m => m.correlativoID == correlativoID);
+            var cotizacion = await _context.Cotizaciones.SingleOrDefaultAsync(m => m.correlativoID == id);
             if (cotizacion == null)
             {
                 return NotFound();
@@ -85,9 +86,9 @@ namespace Cotizaciones.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int correlativoID, [Bind("correlativoID,Rut,Nombre,Paterno,Materno")] Cotizacion cotizacion)
+        public async Task<IActionResult> Edit(int id, [Bind("correlativoID,tipoServicio,descripcion,montoTotal,valorAgregado,fecha,estado,version")] Cotizacion cotizacion)
         {
-            if (correlativoID != cotizacion.correlativoID)
+            if (id != cotizacion.correlativoID)
             {
                 return NotFound();
             }
@@ -116,15 +117,15 @@ namespace Cotizaciones.Controllers
         }
 
         // GET: Cotizacion/Delete/5
-        public async Task<IActionResult> Delete(int? correlativoID)
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (correlativoID == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
             var cotizacion = await _context.Cotizaciones
-                .SingleOrDefaultAsync(m => m.correlativoID == correlativoID);
+                .SingleOrDefaultAsync(m => m.correlativoID == id);
             if (cotizacion == null)
             {
                 return NotFound();
@@ -136,17 +137,17 @@ namespace Cotizaciones.Controllers
         // POST: Cotizacion/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int correlativoID)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var cotizacion = await _context.Cotizaciones.SingleOrDefaultAsync(m => m.correlativoID == correlativoID);
+            var cotizacion = await _context.Cotizaciones.SingleOrDefaultAsync(m => m.correlativoID == id);
             _context.Cotizaciones.Remove(cotizacion);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CotizacionExists(int correlativoID)
+        private bool CotizacionExists(int id)
         {
-            return _context.Cotizaciones.Any(e => e.correlativoID == correlativoID);
+            return _context.Cotizaciones.Any(e => e.correlativoID == id);
         }
     }
 }

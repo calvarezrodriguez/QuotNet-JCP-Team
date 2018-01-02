@@ -13126,23 +13126,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\motor\\.nuget\\packages\\": {},
+    "C:\\Users\\Shock\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
       "projectName": "Cotizaciones",
-      "projectPath": "c:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj",
-      "packagesPath": "C:\\Users\\motor\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\obj\\",
+      "projectPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
+      "packagesPath": "C:\\Users\\Shock\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\motor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shock\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
