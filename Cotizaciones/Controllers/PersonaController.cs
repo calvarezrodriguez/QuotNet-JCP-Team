@@ -149,5 +149,26 @@ namespace Cotizaciones.Controllers
         {
             return _context.Personas.Any(e => e.Id == id);
         }
+        public Cotizacion addCotizacion(){
+            int correlativo = 0;
+            //pedir/determinar el correlativo
+            string tipoServicio = "";
+            //pedir el tipo de servicio
+            string descripcion = "";
+            //pedir la descripcion
+            int montoTotal = 0;
+            //determinar el monto total
+            int valorAgregado = 0;
+            //pedir/determinar el valor agregado
+            string fecha = "";
+            //pedir/obtener la fecha
+            Cotizacion cotizacionNueva = new Cotizacion(correlativo,tipoServicio,descripcion,montoTotal,valorAgregado,fecha);
+            return cotizacionNueva;
+        }
+        public void removeCotizacion(int correlativo){
+            //buscar la cotizacion en la base de datos y removerla de la base de datos 
+            //desligarla de la clase persona correspondiente
+            //persona.eliminarCotizacion(correlativo);
+        }
     }
 }

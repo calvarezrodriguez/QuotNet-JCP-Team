@@ -22,5 +22,15 @@ public class Cotizacion{
     public string fecha {get;set;}
     public string estado {get;set;}
     public int version {get;set;}
+    public Cotizacion(int correlativo,string tipoServicio,string descripcion,int montoTotal,int valorAgregado,string fecha){
+        this.correlativoID = correlativo;
+        this.tipoServicio = tipoServicio;
+        this.descripcion = descripcion;
+        this.montoTotal = montoTotal;
+        this.valorAgregado = valorAgregado;
+        this.fecha = fecha;
+        this.estado = "INICIADA";
+        this.version = 1;
+    }
 }
 }

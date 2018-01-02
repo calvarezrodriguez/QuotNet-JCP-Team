@@ -13126,30 +13126,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Shock\\.nuget\\packages\\": {},
+    "C:\\Users\\Pablo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj",
       "projectName": "Cotizaciones",
-      "projectPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\Cotizaciones.csproj",
-      "packagesPath": "C:\\Users\\Shock\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shock\\Desktop\\Cotizaciones\\obj\\",
+      "projectPath": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj",
+      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shock\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13166,34 +13164,34 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.3"
+            "version": "[2.0.3, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
           },
           "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Microsoft.VisualStudio.web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
           }
         },
         "imports": [
