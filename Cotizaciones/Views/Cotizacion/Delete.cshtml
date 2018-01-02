@@ -1,0 +1,63 @@
+@model Cotizaciones.Models.Cotizacion
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Cotizacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoServicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tipoServicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.montoTotal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.montoTotal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.valorAgregado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.valorAgregado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.version)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.version)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="correlativoID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

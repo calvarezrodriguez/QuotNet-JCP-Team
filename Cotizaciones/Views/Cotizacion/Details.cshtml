@@ -1,0 +1,60 @@
+@model Cotizaciones.Models.Cotizacion
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cotizacion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoServicio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.tipoServicio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.montoTotal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.montoTotal)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.valorAgregado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.valorAgregado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.fecha)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.version)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.version)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.correlativoID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,3 @@
+C:\Users\motor\OneDrive\Documentos\GitHub\QuotNet-JCP-Team\Cotizaciones\obj\Debug\netcoreapp2.0\Lab.csproj.CoreCompileInputs.cache
+C:\Users\motor\OneDrive\Documentos\GitHub\QuotNet-JCP-Team\Cotizaciones\obj\Debug\netcoreapp2.0\Lab.AssemblyInfoInputs.cache
+C:\Users\motor\OneDrive\Documentos\GitHub\QuotNet-JCP-Team\Cotizaciones\obj\Debug\netcoreapp2.0\Lab.AssemblyInfo.cs
