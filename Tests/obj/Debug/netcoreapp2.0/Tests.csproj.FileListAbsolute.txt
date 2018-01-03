@@ -1,0 +1,15 @@
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\Debug\netcoreapp2.0\Tests.csproj.CoreCompileInputs.cache
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfoInputs.cache
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\Debug\netcoreapp2.0\Tests.AssemblyInfo.cs
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Tests.deps.json
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.json
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Tests.runtimeconfig.dev.json
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Tests.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Tests.pdb
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Cotizaciones.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\bin\Debug\netcoreapp2.0\Cotizaciones.pdb
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\Debug\netcoreapp2.0\Tests.dll
+c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\Debug\netcoreapp2.0\Tests.pdb
