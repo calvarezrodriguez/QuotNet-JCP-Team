@@ -29,7 +29,9 @@ namespace PersonaControllerTests
             string testRut = "182345679";
             string testPaterno = "Rojas";
             string testMaterno = "Villaroel";
-            Persona persona = new Persona(testId,testNombre,testRut,testPaterno,testMaterno);
+            string testEmail = "abc@ucn.cl";
+            int testTelefono = 1234;
+            Persona persona = new Persona(testId,testNombre,testRut,testPaterno,testMaterno,testEmail,testTelefono);
             var result = await personaController.Create(persona);
             var okResult = Assert.IsType<OkObjectResult>(result);
             var returnSession = Assert.IsType<Persona>(okResult.Value);

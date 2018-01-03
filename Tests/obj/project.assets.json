@@ -14251,37 +14251,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\motor\\.nuget\\packages\\": {},
+    "C:\\Users\\Pablo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\Tests.csproj",
+      "projectUniqueName": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\motor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\obj\\",
+      "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\motor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj": {
-              "projectPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj"
+            "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj": {
+              "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj"
             }
           }
         }
@@ -14295,23 +14293,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.6.0-preview-20171211-02, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.6.0-preview-20171211-02"
           },
           "xunit": {
             "target": "Package",
-            "version": "2.3.1"
+            "version": "[2.3.1, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "2.3.1"
+            "version": "[2.3.1, )"
           }
         },
         "imports": [
