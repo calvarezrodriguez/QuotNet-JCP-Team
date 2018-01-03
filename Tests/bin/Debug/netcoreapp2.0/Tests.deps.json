@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "31f083530e0f820b32308edd5c2a46dd475f18ab"
+    "signature": "5c79c6473a1f27f0ec2d73f1f3521c596216dd4c"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,7 @@
       "Tests/1.0.0": {
         "dependencies": {
           "Cotizaciones": "1.0.0",
-          "Microsoft.NET.Test.Sdk": "15.5.0",
+          "Microsoft.NET.Test.Sdk": "15.6.0-preview-20171211-02",
           "xunit": "2.3.1",
           "xunit.runner.visualstudio": "2.3.1"
         },
@@ -1806,10 +1806,10 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NET.Test.Sdk/15.5.0": {
+      "Microsoft.NET.Test.Sdk/15.6.0-preview-20171211-02": {
         "dependencies": {
           "Microsoft.CodeCoverage": "1.0.3",
-          "Microsoft.TestPlatform.TestHost": "15.5.0"
+          "Microsoft.TestPlatform.TestHost": "15.6.0-preview-20171211-02"
         }
       },
       "Microsoft.NETCore.Targets/1.1.0": {},
@@ -1830,7 +1830,7 @@
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/15.5.0": {
+      "Microsoft.TestPlatform.ObjectModel/15.6.0-preview-20171211-02": {
         "dependencies": {
           "System.ComponentModel.EventBasedAsync": "4.0.11",
           "System.ComponentModel.TypeConverter": "4.3.0",
@@ -1932,10 +1932,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/15.5.0": {
+      "Microsoft.TestPlatform.TestHost/15.6.0-preview-20171211-02": {
         "dependencies": {
           "Microsoft.Extensions.DependencyModel": "2.0.3",
-          "Microsoft.TestPlatform.ObjectModel": "15.5.0",
+          "Microsoft.TestPlatform.ObjectModel": "15.6.0-preview-20171211-02",
           "Newtonsoft.Json": "10.0.1"
         },
         "runtime": {
@@ -3795,7 +3795,7 @@
       },
       "xunit.runner.visualstudio/2.3.1": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": "15.5.0"
+          "Microsoft.NET.Test.Sdk": "15.6.0-preview-20171211-02"
         }
       },
       "Cotizaciones/1.0.0": {
@@ -4932,12 +4932,12 @@
       "path": "microsoft.net.http.headers/2.0.1",
       "hashPath": "microsoft.net.http.headers.2.0.1.nupkg.sha512"
     },
-    "Microsoft.NET.Test.Sdk/15.5.0": {
+    "Microsoft.NET.Test.Sdk/15.6.0-preview-20171211-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YmwFl/E8IWudzvOkKnPjiCA8w3Glremm1oOlW9tAbYMQQq+ZS5SCW1K+7vXeJxv7ixZPNJrGsEyGONr33Qs6UQ==",
-      "path": "microsoft.net.test.sdk/15.5.0",
-      "hashPath": "microsoft.net.test.sdk.15.5.0.nupkg.sha512"
+      "sha512": "sha512-X+Ouo3e5gMfmO4UV2OHbVJCk7+jKs8AvbBybcFkcdBgKSOHzcDye4ufukW1dvn5gWK8iwOLit6o899VtB6oJxA==",
+      "path": "microsoft.net.test.sdk/15.6.0-preview-20171211-02",
+      "hashPath": "microsoft.net.test.sdk.15.6.0-preview-20171211-02.nupkg.sha512"
     },
     "Microsoft.NETCore.Targets/1.1.0": {
       "type": "package",
@@ -4960,19 +4960,19 @@
       "path": "microsoft.rest.clientruntime.azure/3.3.7",
       "hashPath": "microsoft.rest.clientruntime.azure.3.3.7.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.ObjectModel/15.5.0": {
+    "Microsoft.TestPlatform.ObjectModel/15.6.0-preview-20171211-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Z0Qaw0APdP0kV2fJivDX4m8FkoS9y7Ksb+PzGQZMAoVJoeMhh+taFu/zN+JfWA9Xe8Lt5MrHssK8cV7NPHdsrQ==",
-      "path": "microsoft.testplatform.objectmodel/15.5.0",
-      "hashPath": "microsoft.testplatform.objectmodel.15.5.0.nupkg.sha512"
+      "sha512": "sha512-NDgTxHmawypBtpDYUiRFb7GqGTi59Hlwpyzx3t8q4gZ/3looAFavfzwbuZg55Pzw6UrmcKwK1cA04QDoGeym7A==",
+      "path": "microsoft.testplatform.objectmodel/15.6.0-preview-20171211-02",
+      "hashPath": "microsoft.testplatform.objectmodel.15.6.0-preview-20171211-02.nupkg.sha512"
     },
-    "Microsoft.TestPlatform.TestHost/15.5.0": {
+    "Microsoft.TestPlatform.TestHost/15.6.0-preview-20171211-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S4QJOWL3UNoE9in8IdJFFGiv3smk+SxuCnMVpZeG0nTYaWpp8uJ9dsBZeh3iCseIkjGJJuTXUSW3P0sRZG34DA==",
-      "path": "microsoft.testplatform.testhost/15.5.0",
-      "hashPath": "microsoft.testplatform.testhost.15.5.0.nupkg.sha512"
+      "sha512": "sha512-7gDSy51IIOHQN/ihzp9QtS917YLW7gr4xYQrBn/AKetI10QSPuLHpkbewlmCza5g8GYtwxlH+Pb8Hz64M+gyRw==",
+      "path": "microsoft.testplatform.testhost/15.6.0-preview-20171211-02",
+      "hashPath": "microsoft.testplatform.testhost.15.6.0-preview-20171211-02.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.BrowserLink/2.0.1": {
       "type": "package",

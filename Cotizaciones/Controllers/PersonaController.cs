@@ -22,7 +22,7 @@ namespace Cotizaciones.Controllers
         // GET: Persona
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Personas.ToListAsync());
+                return View(await _context.Personas.ToListAsync());
         }
 
         // GET: Persona/Details/5

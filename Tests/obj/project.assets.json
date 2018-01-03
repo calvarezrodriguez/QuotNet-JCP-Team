@@ -2444,11 +2444,11 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-      "Microsoft.NET.Test.Sdk/15.5.0": {
+      "Microsoft.NET.Test.Sdk/15.6.0-preview-20171211-02": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeCoverage": "1.0.3",
-          "Microsoft.TestPlatform.TestHost": "15.5.0"
+          "Microsoft.TestPlatform.TestHost": "15.6.0-preview-20171211-02"
         },
         "build": {
           "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props": {},
@@ -2674,7 +2674,7 @@
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/15.5.0": {
+      "Microsoft.TestPlatform.ObjectModel/15.6.0-preview-20171211-02": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
@@ -2783,11 +2783,11 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/15.5.0": {
+      "Microsoft.TestPlatform.TestHost/15.6.0-preview-20171211-02": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyModel": "1.0.3",
-          "Microsoft.TestPlatform.ObjectModel": "15.5.0",
+          "Microsoft.TestPlatform.ObjectModel": "15.6.0-preview-20171211-02",
           "Newtonsoft.Json": "9.0.1"
         },
         "compile": {
@@ -7766,10 +7766,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/15.5.0": {
-      "sha512": "YmwFl/E8IWudzvOkKnPjiCA8w3Glremm1oOlW9tAbYMQQq+ZS5SCW1K+7vXeJxv7ixZPNJrGsEyGONr33Qs6UQ==",
+    "Microsoft.NET.Test.Sdk/15.6.0-preview-20171211-02": {
+      "sha512": "X+Ouo3e5gMfmO4UV2OHbVJCk7+jKs8AvbBybcFkcdBgKSOHzcDye4ufukW1dvn5gWK8iwOLit6o899VtB6oJxA==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/15.5.0",
+      "path": "microsoft.net.test.sdk/15.6.0-preview-20171211-02",
       "files": [
         "build/net45/Microsoft.Net.Test.Sdk.props",
         "build/net45/Microsoft.Net.Test.Sdk.targets",
@@ -7777,7 +7777,7 @@
         "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.targets",
         "build/uap10.0/Microsoft.Net.Test.Sdk.props",
         "buildMultiTargeting/Microsoft.Net.Test.Sdk.props",
-        "microsoft.net.test.sdk.15.5.0.nupkg.sha512",
+        "microsoft.net.test.sdk.15.6.0-preview-20171211-02.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -8153,10 +8153,10 @@
         "microsoft.rest.clientruntime.azure.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/15.5.0": {
-      "sha512": "Z0Qaw0APdP0kV2fJivDX4m8FkoS9y7Ksb+PzGQZMAoVJoeMhh+taFu/zN+JfWA9Xe8Lt5MrHssK8cV7NPHdsrQ==",
+    "Microsoft.TestPlatform.ObjectModel/15.6.0-preview-20171211-02": {
+      "sha512": "NDgTxHmawypBtpDYUiRFb7GqGTi59Hlwpyzx3t8q4gZ/3looAFavfzwbuZg55Pzw6UrmcKwK1cA04QDoGeym7A==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/15.5.0",
+      "path": "microsoft.testplatform.objectmodel/15.6.0-preview-20171211-02",
       "files": [
         "lib/net451/Microsoft.TestPlatform.CoreUtilities.dll",
         "lib/net451/Microsoft.TestPlatform.PlatformAbstractions.dll",
@@ -8219,14 +8219,14 @@
         "lib/netstandard1.5/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard1.5/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard1.5/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.15.5.0.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.15.6.0-preview-20171211-02.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/15.5.0": {
-      "sha512": "S4QJOWL3UNoE9in8IdJFFGiv3smk+SxuCnMVpZeG0nTYaWpp8uJ9dsBZeh3iCseIkjGJJuTXUSW3P0sRZG34DA==",
+    "Microsoft.TestPlatform.TestHost/15.6.0-preview-20171211-02": {
+      "sha512": "7gDSy51IIOHQN/ihzp9QtS917YLW7gr4xYQrBn/AKetI10QSPuLHpkbewlmCza5g8GYtwxlH+Pb8Hz64M+gyRw==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/15.5.0",
+      "path": "microsoft.testplatform.testhost/15.6.0-preview-20171211-02",
       "files": [
         "ThirdPartyNotices.txt",
         "build/uap10.0/Microsoft.TestPlatform.TestHost.props",
@@ -8363,7 +8363,7 @@
         "lib/uap10.0/Microsoft.TestPlatform.Utilities.dll",
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.Common.dll",
         "lib/uap10.0/testhost.dll",
-        "microsoft.testplatform.testhost.15.5.0.nupkg.sha512",
+        "microsoft.testplatform.testhost.15.6.0-preview-20171211-02.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -14244,42 +14244,44 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Cotizaciones >= 1.0.0",
-      "Microsoft.NET.Test.Sdk >= 15.5.0",
+      "Microsoft.NET.Test.Sdk >= 15.6.0-preview-20171211-02",
       "Microsoft.NETCore.App >= 2.0.0",
       "xunit >= 2.3.1",
       "xunit.runner.visualstudio >= 2.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pablo\\.nuget\\packages\\": {},
+    "C:\\Users\\motor\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\obj\\",
+      "projectPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\motor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\motor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj": {
-              "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj"
+            "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj": {
+              "projectPath": "C:\\Users\\motor\\OneDrive\\Documentos\\GitHub\\QuotNet-JCP-Team\\Cotizaciones\\Cotizaciones.csproj"
             }
           }
         }
@@ -14293,23 +14295,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "[15.5.0, )"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "15.6.0-preview-20171211-02"
           },
           "xunit": {
             "target": "Package",
-            "version": "[2.3.1, )"
+            "version": "2.3.1"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "[2.3.1, )"
+            "version": "2.3.1"
           }
         },
         "imports": [

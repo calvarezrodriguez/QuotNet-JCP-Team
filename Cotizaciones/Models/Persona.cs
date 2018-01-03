@@ -19,6 +19,13 @@ public class Persona{
     public string Paterno {get; set; }    
     public string Materno {get; set; }
 
+    public Persona(){
+        this.Id = 0;
+        this.Rut = "";
+        this.Nombre = "";
+        this.Paterno = "";
+        this.Materno = "";
+    }
     public Persona(int Id,string Rut,string Nombre,string Paterno,string Materno){
         this.Id = Id;
         this.Rut = Rut;

@@ -3,17 +3,17 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
-    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">c:\Users\Pablo\Downloads\QuotNet-JCP-Team-master\Tests\obj\project.assets.json</ProjectAssetsFile>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\motor\OneDrive\Documentos\GitHub\QuotNet-JCP-Team\Tests\obj\project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Pablo\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\motor\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.5.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.4.0</NuGetToolVersion>
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\15.5.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\15.5.0\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\15.6.0-preview-20171211-02\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\15.6.0-preview-20171211-02\build\netcoreapp1.0\Microsoft.Net.Test.Sdk.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.3.1\build\xunit.core.props')" />
     <Import Project="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props" Condition="Exists('C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props')" />
