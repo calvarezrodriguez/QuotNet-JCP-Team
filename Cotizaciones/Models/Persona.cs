@@ -18,20 +18,25 @@ public class Persona{
     public string Nombre {get; set; }
     public string Paterno {get; set; }    
     public string Materno {get; set; }
-
+    public string Email {get; set; }
+    public int Telefono {get; set; }
     public Persona(){
         this.Id = 0;
         this.Rut = "";
         this.Nombre = "";
         this.Paterno = "";
         this.Materno = "";
+        this.Email = "";
+        this.Telefono = 0;
     }
-    public Persona(int Id,string Rut,string Nombre,string Paterno,string Materno){
+    public Persona(int Id,string Rut,string Nombre,string Paterno,string Materno,string email,int telefono){
         this.Id = Id;
         this.Rut = Rut;
         this.Nombre = Nombre;
         this.Paterno = Paterno;
         this.Materno = Materno;
+        this.Email = email;
+        this.Telefono = telefono;
     }
 
     }
