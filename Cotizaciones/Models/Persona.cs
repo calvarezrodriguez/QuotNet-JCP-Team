@@ -19,7 +19,13 @@ public class Persona{
     public string Paterno {get; set; }    
     public string Materno {get; set; }
 
-     public List<CotizacionPersona> CotizacionPersona { get; set; }
+    public Persona(int Id,string Rut,string Nombre,string Paterno,string Materno){
+        this.Id = Id;
+        this.Rut = Rut;
+        this.Nombre = Nombre;
+        this.Paterno = Paterno;
+        this.Materno = Materno;
+    }
 
     }
 }
