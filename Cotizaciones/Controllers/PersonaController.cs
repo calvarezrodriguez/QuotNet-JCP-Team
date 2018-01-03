@@ -58,9 +58,13 @@ namespace Cotizaciones.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(persona);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try{
+                    _context.Add(persona);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }catch(Exception){
+                    //Parametros de persona invalidos
+                }
             }
             return View(persona);
         }
