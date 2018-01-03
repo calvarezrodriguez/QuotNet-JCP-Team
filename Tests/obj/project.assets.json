@@ -14257,11 +14257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14278,8 +14278,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj": {
-              "projectPath": "c:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj"
+            "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj": {
+              "projectPath": "C:\\Users\\Pablo\\Downloads\\QuotNet-JCP-Team-master\\Cotizaciones\\Cotizaciones.csproj"
             }
           }
         }
